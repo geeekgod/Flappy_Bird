@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 727248370071688209}
   m_Layer: 0
   m_Name: Top
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 727248370341925879}
   m_Layer: 0
   m_Name: Bottom
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -269,6 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a573f0cc48b89458d22390dbc9bb51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &8719274549574822168
 GameObject:
   m_ObjectHideFlags: 0
@@ -281,7 +282,7 @@ GameObject:
   - component: {fileID: 3330094668820588930}
   m_Layer: 0
   m_Name: Score Detector
-  m_TagString: Untagged
+  m_TagString: ScoreDetector
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
