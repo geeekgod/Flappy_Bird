@@ -69,4 +69,12 @@ public class Player : MonoBehaviour
             FindObjectOfType<GameManager>().IncreaseScore();
         }
     }
+
+    private void OnEnable()
+    {
+        Vector3 position = transform.position;
+        position.y = 0f;
+        transform.position = position;
+        direction = Vector3.zero;
+    }
 }
