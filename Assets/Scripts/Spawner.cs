@@ -3,9 +3,9 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject prefab;
-    public float spawnRate = 1f;
-    public float minHeight = -1f;
-    public float maxHeight = 1f;
+    private float spawnRate = 1f;
+    private float minHeight = -1.2f;
+    private float maxHeight = 1.2f;
 
     private void OnEnable()
     {
